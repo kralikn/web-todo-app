@@ -9,6 +9,7 @@ def add_todo():
 todos = functions.get_todos()
 
 st.title("My Todo App")
+st.write("This app is my todo app")
 
 for index, todo in enumerate(todos):
   checkbox = st.checkbox(todo, key=todo)
